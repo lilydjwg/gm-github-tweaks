@@ -4,14 +4,12 @@
 // @description    顶栏白色
 // @include        https://github.com/*
 // @include        https://*.github.com/*
-// @version	   1.0
+// @version	   1.1
 // @grant          GM_addStyle
 // @run-at         document-start
 // ==/UserScript==
  
-// jshint esversion:6
-
-let css = `
+const css = `
   .header {
     border-bottom: 1px solid #E5E5E5 !important;
     background-color: #F5F5F5 !important;
@@ -24,15 +22,15 @@ let css = `
   .header .header-logo-wordmark:hover {
     color: #4078C0 !important;
   }
-  .header .header-nav-link {
+  .header .header-navlink {
     color: #555 !important;
   }
-  .header .header-nav-link:hover,
-  .header .header-nav-link:focus {
+  .header .header-navlink:hover,
+  .header .header-navlink:focus {
     color: #4078c0 !important;
   }
-  .header .header-nav-link:hover .dropdown-caret,
-  .header .header-nav-link:focus .dropdown-caret {
+  .header .header-navlink:hover .dropdown-caret,
+  .header .header-navlink:focus .dropdown-caret {
     border-top-color: #4078c0 !important;
   }
   .header .notification-indicator .mail-status {
@@ -88,5 +86,6 @@ let css = `
   .header .header-search-input::placeholder {
     color: #999 !important;/*AAA*/
   }
-`;
-GM_addStyle(css);
+`
+
+GM_addStyle(css)
