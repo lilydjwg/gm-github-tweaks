@@ -1,3 +1,7 @@
+stylus.css
+===
+* style to make topbar white (modified from [Github Return Light Themed Header](https://userstyles.org/styles/138766/github-return-light-themed-header)
+
 github-style
 ===
 * make topbar white (thanks to [Github Return Light Themed Header](https://userstyles.org/styles/138766/github-return-light-themed-header) stylish style)

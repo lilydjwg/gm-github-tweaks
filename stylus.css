@@ -1,0 +1,110 @@
+@-moz-document domain("github.com"), domain("gist.github.com") {
+[role=banner] {
+  border-bottom: 1px solid #E5E5E5 !important;
+  background-color: #F5F5F5 !important;
+}
+
+[role=banner] .header-logo-invertocat,
+[role=banner] .header-logo-wordmark {
+  color: #555 !important;
+}
+
+[role=banner] .header-logo-invertocat:hover,
+[role=banner] .header-logo-wordmark:hover {
+  color: #4078C0 !important;
+}
+
+[role=banner] .header-nav-link,
+[role=banner] .header-navlink,
+[role=banner] .HeaderNavlink,
+[role=banner] div.header-navlink a {
+  color: #555 !important;
+}
+
+[role=banner] .header-nav-link:hover,
+[role=banner] .header-nav-link:focus,
+[role=banner] .header-navlink:hover,
+[role=banner] .header-navlink:focus,
+[role=banner] .HeaderNavlink:hover,
+[role=banner] .HeaderNavlink:focus,
+[role=banner] div.header-navlink a:hover,
+[role=banner] div.header-navlink a:focus {
+  color: #4078c0 !important;
+}
+
+[role=banner] .header-nav-link:hover .dropdown-caret,
+[role=banner] .header-nav-link:focus .dropdown-caret,
+[role=banner] .header-navlink:hover .dropdown-caret,
+[role=banner] .header-navlink:focus .dropdown-caret {
+  border-top-color: #4078c0 !important;
+}
+
+[role=banner] .notification-indicator .mail-status {
+  border-color: #f3f3f3 !important;
+}
+
+[role=banner] .notification-indicator .octicon-bell {
+  fill: #555 !important;
+}
+
+[role=banner] .header-search {
+  font-size: 14px !important;
+}
+
+[role=banner] .form-control.header-search-wrapper {
+  line-height: 21px !important;
+}
+
+[role=banner] .header-search-scope {
+  font-size: 12px !important;
+  line-height: 20px !important;
+  color: #767676 !important;
+  border-right-color: #EEE !important;
+}
+
+[role=banner] .header-search-scope:empty+.header-search-input {
+  /*width: 100%; */ /* 99.999% */
+}
+
+[role=banner] .header-search-wrapper {
+  min-height: 0 !important;
+  font-size: 14px !important;
+  color: #333 !important;
+  background-color: #FFF !important;
+  border: 1px solid #DDD !important;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.075) !important;
+}
+
+[role=banner] .header-search-wrapper.focus {
+  background-color: #FFF !important;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.075), 0 0 5px rgba(81,167,232,0.5) !important;
+  border-color: #51A7E8 !important;
+}
+
+[role=banner] .header-search-wrapper.focus .header-search-scope {
+  color: #4078C0 !important;
+  background-color: #EDF2F9 !important;
+  border-right-color: #C6D7EC !important;
+}
+
+[role=banner] .header-search-input {
+  min-height: 26px !important;
+  font-size: 14px !important;
+  color: #333 !important;
+}
+
+[role=banner] .header-search-input::-webkit-input-placeholder {
+  color: #999 !important;/*AAA*/
+}
+[role=banner] .header-search-input::-moz-placeholder {
+  color: #999 !important;/*AAA*/
+}
+[role=banner] .header-search-input:-ms-input-placeholder {
+  color: #999 !important;/*AAA*/
+}
+[role=banner] .header-search-input::placeholder {
+  color: #999 !important;/*AAA*/
+}
+
+}
+/* vim:se fdm=marker fmr={,}: */
